@@ -1,0 +1,572 @@
+
+
+@media screen and (min-width:992px) and (max-width:1230px){
+.fitness-image img{width: 100%;}
+.health-fitnes-heading::before {
+ content: none;
+}
+.sign-in, .sign-up {width: 100px;}
+.sign-in a.nav-link {
+    padding: 15px 25px;
+}
+.sign-up a.nav-link {
+
+    padding: 15px 23px;
+}
+.fitness-image::before {
+    content: none;
+}
+.partners-logo img{width: 50%;}
+.our-partner-section {margin-top: 35px;}
+.our-partner-heading h2 {font-size: 45px;padding-bottom: 5px;}
+.our-partner-section .row {align-items: start;}
+.our-partner-heading p {font-size: 20px;line-height: 25px;}
+.about-us-heading h2 {font-size: 41px;padding: 0px;}
+.about-us-heading p {font-size: 19px;line-height: 30px;}
+.about-us-left-content-wrap {display:inline-flex;}
+.what-we-do-heading {
+    padding:70px 25px;}
+    .aboutus-content-wrapper {width: 80%;}
+.aboutus-left-image img{width: 100%;}
+.what-we-do-heading h3 {font-size: 35px;font-weight: 600;padding-bottom: 0px;}
+.what-we-do-heading p {font-size: 15px;}
+.how-it-work-section {padding-top: 40px;}
+.how-it-work-heading h2 {padding-bottom: 0;font-size: 40px;}
+
+.how-it-work-heading p {font-size: 20px;line-height: 27px;padding-bottom: 35px;}
+.accordion-section .accordion-button {font-size: 17px;}
+.blog-media-heading h2 {
+    font-size: 30px;}
+    .how-it-work-dots {bottom: -16em;}
+.faq-section {padding-top: 60px;}
+.faq-heading h3 {font-size: 45px;}
+.faq-heading p {font-size: 19px;padding-bottom: 20px;margin-bottom: 0;}
+.customer-section {
+    padding-top: 45px;
+}
+.customer-says-heading h3 {font-size: 35px;padding-bottom: 10px;}
+.customer-says-heading p {font-size: 16px;line-height: 25px;}
+.customer-content-details p {font-size: 16px;padding-bottom: 20px;}
+.footer-wrap {
+    margin-top: 10px;
+}
+.newsletter-heading h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    padding-top: 75px;
+}
+.sub-footer-section {
+    padding-top: 80px;
+    display: flex;
+}
+
+/*****************Login-page************************/
+.remotely-work img {width: 100%;}
+.login-section {padding-top: 0;}
+
+}/*992-1230 media query ends here*/
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+/*Navigation menus*/
+.navbar-toggler.tBtn:focus {text-decoration: none;outline: 0;box-shadow:none}
+.navbar-light.navigation .navbar-nav .nav-link { color: #000;padding-left: 26px;}
+#navbarNavDropdown {background:#F2FAFA;position: absolute;left: 0;width: 100%;height: auto;top: 60px;z-index: 1;}
+ul.nav{display: inline-block;}
+.navTrigger {cursor: pointer;width: 30px;height: 25px;display: block;}
+.navTrigger i {background-color: #313131;border-radius: 2px;display: block;width: 100%;height: 4px;}
+.navTrigger i:nth-child(1) {-webkit-animation: outT 0.8s backwards;animation: outT 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger i:nth-child(2) {margin: 5px 0;-webkit-animation: outM 0.8s backwards;animation: outM 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger i:nth-child(3) {-webkit-animation: outBtm 0.8s backwards;animation: outBtm 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger.active i:nth-child(1) {-webkit-animation: inT 0.8s forwards;animation: inT 0.8s forwards;}
+.navTrigger.active i:nth-child(2) {-webkit-animation: inM 0.8s forwards;animation: inM 0.8s forwards;}
+.navTrigger.active i:nth-child(3) {-webkit-animation: inBtm 0.8s forwards;animation: inBtm 0.8s forwards;}
+.portfolio-slider button.slick-prev.slick-arrow {display: none;}
+.portfolio-slider button.slick-next.slick-arrow {display: none;}
+.work-slider .slick-dots li button:before {font-family: 'slick';font-size: 40px;line-height: 20px;position: absolute;top: 0;left: 0;width: 20px;height: 20px;content: '•';
+    text-align: center;color: black;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.sign-in-up-wrap {display: inline-flex;}
+/**********Top Header**************/
+.top-header {margin-top:0}
+.sign-in {width: auto;height: 58px;margin-right: 30px;}
+.sign-in a.nav-link {color: #313131;padding: 23px 0;}
+.sign-up {width: auto;height: 58px;margin-right: 30px;}
+.sign-up a.nav-link {color: #313131;padding: 23px 0px;}
+.health-fitnes-heading::before{content: none;}
+.fitness-image::before {content: none;}
+.health-fitness-section .row {flex-direction: column-reverse;}
+.health-fitness-section {text-align: center;}
+.fitness-image img {width: 100%;}
+.health-fitnes-heading img {padding-bottom: 15px;width: 73%;margin-top: 26px;}
+.get-started-section {margin-top: 39px;}
+.get-started-section .input-group {width: 100%;}
+
+/*************our-partners-section***************/
+.our-partner-section {margin-top: 40px;text-align: center;}
+.our-partner-heading h2 {font-size: 45px;padding-bottom: 10px;}
+.our-partner-heading p {font-size: 21px;line-height: 30px;}
+.partners-logo{display:table;}
+.partners-logo img{width: 50%;}
+.health-fitnes-heading span {font-size: 17px;font-weight: 400;}
+.our-partner-dots img {display: none;}
+.about-us-section {text-align: center;}
+
+/***************about-us-section****************/
+.about-us-heading h2 {font-size: 50px;padding-bottom: 15px;}
+.about-us-heading p {font-size: 18px;line-height: 29px;}
+.aboutus-content-wrapper {width: 100%;border-radius: 0;}
+.about-us-left-content-wrap {display: block;}
+.aboutus-left-image {top:0;}
+.about-us-heading {padding: 48px 0px;}
+.aboutus-left-image img{max-width: 100%;}
+.aboutus-right-image img {
+    max-width: 100%;}
+.what-we-do-heading {padding: 40px 0 0;}
+.what-we-do-heading h3 {font-size: 45px;font-weight: 400;padding-bottom: 10px;}
+.what-we-do-heading p {font-size: 16px;}
+.about-us-right-content-wrap {display: inline-flex;flex-direction: column-reverse;}
+.aboutus-right-image {left: 0px;bottom: 0;}
+.what-we-do-content {padding-top: 40px;}
+.what-we-do-content p {font-size: 13px;}
+
+/*********************How-it-Works-section***********************/
+.how-it-work-section {padding-top: 50px;position: relative;text-align: center;}
+.how-it-work-heading h2 {padding-bottom: 10px;font-size: 36px;}
+.how-it-work-heading p {font-size: 21px;line-height: 25px;padding-bottom: 25px;}
+.how-it-work-heading::after {content:none;}
+.account-help-button .btn-secondary {width: 150px;height: 50px;}
+.account-help-button .btn-outline-dark {width: 150px;height: 50px;margin-left: 15px;}
+.how-it-work-dots{display: none;}
+.account-help-button {padding-bottom: 15px;}
+.accordion-section .accordion-button {padding: 11px 13px;font-size: 16px;}
+.accordion-section .accordion-button:not(.collapsed) {font-size: 17px;padding: 15px 0px;}
+.accordion-section .accordion-body {font-size: 15px; padding: 0;text-align: left;}
+
+/***************Blog and media *****************/
+.blog-media-section {padding-top: 60px;text-align: center;}
+.blog-media-heading h2 {font-size: 27px;}
+.blog-media-heading {padding-bottom: 20px;}
+.blog-content {padding: 25px 15px;}
+.blog-image img {width: 100%;}
+.blog-content span {padding-bottom: 11px;}
+.blog-content h6 {font-size: 16px;line-height: 24px;font-weight: 400;}
+.blog-content-detail {width: 100%;bottom: 0;}
+.blog-content-detail p {padding: 10px;font-size: 15px;line-height: 20px;margin: 0;}
+.blog-media-section .row .col-lg-6{padding-bottom: 20px;}
+
+/********************FAQ's-Section************************/
+.faq-section {padding-top: 15px;}
+.faq-heading h3 {font-size: 45px;}
+.faq-heading p {font-size: 17px;padding-bottom: 10px;}
+.faq-content {display:block;width: 100%;}
+.faq-fullwidth {padding: 0;}
+
+/*****************what-customes-say*******************/
+.customer-section {padding-top: 30px; text-align: center;}
+.customer-says-heading h3 {color: #313131;font-size: 32px;padding-bottom: 5px;}
+.customer-says-heading p {font-size: 15px;line-height: 23px;}
+.customer-image img {width: 100%;}
+.customer-content-details p {font-size: 18px;padding-bottom: 25px;}
+.customer-content img {display: inline;}
+.customer-content h6 {padding: 20px 30px;margin-bottom: 0;}
+
+
+/************************Footer***********************/
+.footer-wrap {margin-top: 35px;}
+.newsletter-heading h2 {font-size: 40px;padding-top: 35px;}
+.subscribe-section {margin-top: 25px;}
+.subscribe-section .form-floating {display: block;text-align: center;}
+.form-floating .form-control {width: 100%;}
+.subscribe-section .btn-secondary.btn-lg {margin-top: 20px;width: 150px;height: 50px;background: #FFFFFF;border-radius: 5px;color: #313131;}
+.sub-footer-section {padding-top:47px;display:block;text-align: center;}
+.footer-logo p {font-size: 16px;font-style: normal;margin-top: 17px;}    
+.footer-link li a {font-size: 15px;}
+
+/***********************Login**********************/
+.login-section .row {justify-content: center;flex-direction: column-reverse;}
+.remotely-work img {width: 100%;}
+.login-heading h1 {text-align: center;}
+.login-button .login-btn {width: 149px;height: 40px;margin-top: 30px;text-align: center;}
+.login-button a.forgot-pwd {margin-left: 15px;}
+.login-section input.form-control {text-align: center;height: 70px;font-size: 15px;}
+
+
+}/*768-991 media queries ends here*/
+
+@media screen and (min-width:481px) and (max-width:767px){
+/*Navigation menus*/
+.navbar-toggler.tBtn:focus {text-decoration: none;outline: 0;box-shadow:none}
+.navbar-light.navigation .navbar-nav .nav-link { color: #000;padding-left: 26px;}
+#navbarNavDropdown {background:#F2FAFA;position: absolute;left: 0;width: 100%;height: auto;top: 60px;z-index: 1;}
+ul.nav{display: inline-block;}
+.navTrigger {cursor: pointer;width: 30px;height: 25px;display: block;}
+.navTrigger i {background-color: #313131;border-radius: 2px;display: block;width: 100%;height: 4px;}
+.navTrigger i:nth-child(1) {-webkit-animation: outT 0.8s backwards;animation: outT 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger i:nth-child(2) {margin: 5px 0;-webkit-animation: outM 0.8s backwards;animation: outM 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger i:nth-child(3) {-webkit-animation: outBtm 0.8s backwards;animation: outBtm 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger.active i:nth-child(1) {-webkit-animation: inT 0.8s forwards;animation: inT 0.8s forwards;}
+.navTrigger.active i:nth-child(2) {-webkit-animation: inM 0.8s forwards;animation: inM 0.8s forwards;}
+.navTrigger.active i:nth-child(3) {-webkit-animation: inBtm 0.8s forwards;animation: inBtm 0.8s forwards;}
+.portfolio-slider button.slick-prev.slick-arrow {display: none;}
+.portfolio-slider button.slick-next.slick-arrow {display: none;}
+.work-slider .slick-dots li button:before {font-family: 'slick';font-size: 40px;line-height: 20px;position: absolute;top: 0;left: 0;width: 20px;height: 20px;content: '•';
+    text-align: center;color: black;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+    .sign-in-up-wrap {
+        display: inline-flex;
+    }
+/**********Top Header**************/
+.top-header {margin-top:0}
+.sign-in {width: auto;height: 58px;margin-right: 30px;}
+.sign-in a.nav-link {color: #313131;padding: 23px 0;}
+.sign-up {width: auto;height: 58px;margin-right: 30px}
+.sign-up a.nav-link {color: #313131;padding: 23px 0px;}
+.health-fitnes-heading::before{content: none;}
+.fitness-image::before {content: none;}
+.health-fitness-section .row {flex-direction: column-reverse;}
+.health-fitness-section {text-align: center;}
+.fitness-image img {width: 100%;}
+.health-fitnes-heading img {padding-bottom: 15px;width: 73%;margin-top: 26px;}
+.get-started-section {margin-top: 39px;}
+.get-started-section .input-group {width: 100%;}
+
+/*************our-partners-section***************/
+.our-partner-section {margin-top: 40px;text-align: center;}
+.our-partner-heading h2 {font-size: 45px;padding-bottom: 10px;}
+.our-partner-heading p {font-size: 21px;line-height: 30px;}
+.partners-logo {display: block;}
+.health-fitnes-heading span {font-size: 17px;font-weight: 400;}
+.our-partner-dots img {display: none;}
+.about-us-section {text-align: center;}
+
+/***************about-us-section****************/
+.about-us-heading h2 {font-size: 50px;padding-bottom: 15px;}
+.about-us-heading p {font-size: 18px;line-height: 29px;}
+.aboutus-content-wrapper {width: 100%;border-radius: 0;}
+.about-us-left-content-wrap {display: block;}
+.aboutus-left-image {top:0;}
+.about-us-heading {padding: 48px 0px;}
+.aboutus-left-image img{width: 100%;}
+.what-we-do-heading {padding: 40px 0 0;}
+.what-we-do-heading h3 {font-size: 45px;font-weight: 400;padding-bottom: 10px;}
+.what-we-do-heading p {font-size: 16px;}
+.about-us-right-content-wrap {display: inline-flex;flex-direction: column-reverse;}
+.aboutus-right-image {left: 0px;bottom: 0;}
+.what-we-do-content {padding-top: 40px;}
+.what-we-do-content p {font-size: 13px;}
+.aboutus-right-image img {max-width: 100%;}
+
+/*********************How-it-Works-section***********************/
+.how-it-work-section {padding-top: 50px;position: relative;text-align: center;}
+.how-it-work-heading h2 {padding-bottom: 10px;font-size: 36px;}
+.how-it-work-heading p {font-size: 21px;line-height: 25px;padding-bottom: 25px;}
+.how-it-work-heading::after {content:none;}
+.account-help-button .btn-secondary {width: 150px;height: 50px;}
+.account-help-button .btn-outline-dark {width: 150px;height: 50px;margin-left: 15px;}
+.how-it-work-dots{display: none;}
+.account-help-button {padding-bottom: 15px;}
+.accordion-section .accordion-button {padding: 11px 13px;font-size: 16px;}
+.accordion-section .accordion-button:not(.collapsed) {font-size: 17px;padding: 15px 0px;}
+.accordion-section .accordion-body {font-size: 15px; padding: 0;text-align: left;}
+
+/***************Blog and media *****************/
+.blog-media-section {padding-top: 60px;text-align: center;}
+.blog-media-heading h2 {font-size: 27px;}
+.blog-media-heading {padding-bottom: 20px;}
+.blog-content {padding: 25px 15px;}
+.blog-image img {width: 100%;}
+.blog-content span {padding-bottom: 11px;}
+.blog-content h6 {font-size: 16px;line-height: 24px;font-weight: 400;}
+.blog-content-detail {width: 100%;bottom: 0;}
+.blog-content-detail p {padding: 10px;font-size: 15px;line-height: 20px;margin: 0;}
+.blog-media-section .row .col-lg-6{padding-bottom: 20px;}
+
+/********************FAQ's-Section************************/
+.faq-section {padding-top: 15px;}
+.faq-heading h3 {font-size: 45px;}
+.faq-heading p {font-size: 17px;padding-bottom: 10px;}
+.faq-content {display:block;width: 100%;}
+.faq-fullwidth {padding: 0;}
+
+/*****************what-customes-say*******************/
+.customer-section {padding-top: 30px; text-align: center;}
+.customer-says-heading h3 {color: #313131;font-size: 32px;padding-bottom: 5px;}
+.customer-says-heading p {font-size: 15px;line-height: 23px;}
+.customer-image img {width: 100%;}
+.customer-content-details p {font-size: 18px;padding-bottom: 25px;}
+.customer-content img {display: inline;}
+.customer-content h6 {padding: 20px 30px;margin-bottom: 0;}
+
+
+/************************Footer***********************/
+.footer-wrap {margin-top: 35px;}
+.newsletter-heading h2 {font-size: 40px;padding-top: 35px;}
+.subscribe-section {margin-top: 25px;}
+.subscribe-section .form-floating {display: block;text-align: center;}
+.form-floating .form-control {width: 100%;}
+.subscribe-section .btn-secondary.btn-lg {margin-top: 20px;width: 150px;height: 50px;background: #FFFFFF;border-radius: 5px;color: #313131;}
+.sub-footer-section {padding-top:47px;display:block;text-align: center;}
+.footer-logo p {font-size: 16px;font-style: normal;margin-top: 17px;}    
+.footer-link li a {font-size: 15px;}
+
+/***********************Login**********************/
+.login-section .row {justify-content: center;flex-direction: column-reverse;}
+.remotely-work img {width: 100%;}
+.login-heading h1 {text-align: center;}
+.login-button .login-btn {width: 149px;height: 40px;margin-top: 30px;text-align: center;}
+.login-button a.forgot-pwd {margin-left: 15px;}
+.login-section input.form-control {text-align: center;height: 70px;font-size: 15px;}
+.login-section {padding-top: 10px;}
+
+}/*481-767 media query ends here*/
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+/*Navigation menus*/
+.navbar-toggler.tBtn:focus {text-decoration: none;outline: 0;box-shadow:none}
+.navbar-light.navigation .navbar-nav .nav-link { color: #000;padding-left: 26px;}
+#navbarNavDropdown {background:#F2FAFA;position: absolute;left: 0;width: 100%;height: auto;top: 60px;z-index: 1;}
+ul.nav{display: inline-block;}
+.navTrigger {cursor: pointer;width: 30px;height: 25px;display: block;}
+.navTrigger i {background-color: #313131;border-radius: 2px;display: block;width: 100%;height: 4px;}
+.navTrigger i:nth-child(1) {-webkit-animation: outT 0.8s backwards;animation: outT 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger i:nth-child(2) {margin: 5px 0;-webkit-animation: outM 0.8s backwards;animation: outM 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger i:nth-child(3) {-webkit-animation: outBtm 0.8s backwards;animation: outBtm 0.8s backwards;-webkit-animation-direction: reverse;animation-direction: reverse;}
+.navTrigger.active i:nth-child(1) {-webkit-animation: inT 0.8s forwards;animation: inT 0.8s forwards;}
+.navTrigger.active i:nth-child(2) {-webkit-animation: inM 0.8s forwards;animation: inM 0.8s forwards;}
+.navTrigger.active i:nth-child(3) {-webkit-animation: inBtm 0.8s forwards;animation: inBtm 0.8s forwards;}
+.portfolio-slider button.slick-prev.slick-arrow {display: none;}
+.portfolio-slider button.slick-next.slick-arrow {display: none;}
+.work-slider .slick-dots li button:before {font-family: 'slick';font-size: 40px;line-height: 20px;position: absolute;top: 0;left: 0;width: 20px;height: 20px;content: '•';
+    text-align: center;color: black;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+
+/**********Top Header**************/
+.top-header {margin-top:0}
+.sign-in {width: auto;height: 58px;}
+.sign-in a.nav-link {color: #313131;padding: 23px 0;}
+.sign-up {width: auto;height: 58px;}
+.sign-up a.nav-link {color: #313131;padding: 23px 0px;}
+.health-fitnes-heading::before{content: none;}
+.fitness-image::before {content: none;}
+.health-fitness-section .row {flex-direction: column-reverse;}
+.health-fitness-section {text-align: center;}
+.fitness-image img {width: 100%;}
+.health-fitnes-heading img {padding-bottom: 15px;width: 73%;margin-top: 26px;}
+.get-started-section {margin-top: 39px;}
+.get-started-section .input-group {width: 100%;}
+
+/*************our-partners-section***************/
+.our-partner-section {margin-top: 40px;text-align: center;}
+.our-partner-heading h2 {font-size: 45px;padding-bottom: 10px;}
+.our-partner-heading p {font-size: 21px;line-height: 30px;}
+.partners-logo {display: block;}
+.health-fitnes-heading span {font-size: 17px;font-weight: 400;}
+.our-partner-dots img {display: none;}
+.about-us-section {text-align: center;}
+
+/***************about-us-section****************/
+.about-us-heading h2 {font-size: 50px;padding-bottom: 15px;}
+.about-us-heading p {font-size: 18px;line-height: 29px;}
+.aboutus-content-wrapper {width: 100%;border-radius: 0;}
+.about-us-left-content-wrap {display: block;}
+.aboutus-left-image {top:0;}
+.about-us-heading {padding: 48px 0px;}
+.aboutus-left-image img{width: 100%;}
+.what-we-do-heading {padding: 40px 0 0;}
+.what-we-do-heading h3 {font-size: 45px;font-weight: 400;padding-bottom: 10px;}
+.what-we-do-heading p {font-size: 16px;}
+.about-us-right-content-wrap {display: inline-flex;flex-direction: column-reverse;}
+.aboutus-right-image {left: 0px;bottom: 0;}
+.what-we-do-content {padding-top: 40px;}
+.what-we-do-content p {font-size: 13px;}
+
+/*********************How-it-Works-section***********************/
+.how-it-work-section {padding-top: 50px;position: relative;text-align: center;}
+.how-it-work-heading h2 {padding-bottom: 10px;font-size: 36px;}
+.how-it-work-heading p {font-size: 21px;line-height: 25px;padding-bottom: 25px;}
+.how-it-work-heading::after {content:none;}
+.account-help-button .btn-secondary {width: 150px;height: 50px;}
+.account-help-button .btn-outline-dark {width: 150px;height: 50px;margin-left: 15px;}
+.how-it-work-dots{display: none;}
+.account-help-button {padding-bottom: 15px;}
+.accordion-section .accordion-button {padding: 11px 13px;font-size: 16px;}
+.accordion-section .accordion-button:not(.collapsed) {font-size: 17px;padding: 15px 0px;}
+.accordion-section .accordion-body {font-size: 15px; padding: 0;text-align: left;}
+
+/***************Blog and media *****************/
+.blog-media-section {padding-top: 60px;text-align: center;}
+.blog-media-heading h2 {font-size: 27px;}
+.blog-media-heading {padding-bottom: 20px;}
+.blog-content {padding: 25px 15px;}
+.blog-image img {width: 100%;}
+.blog-content span {padding-bottom: 11px;}
+.blog-content h6 {font-size: 16px;line-height: 24px;font-weight: 400;}
+.blog-content-detail {width: 100%;bottom: 0;}
+.blog-content-detail p {padding: 10px;font-size: 15px;line-height: 20px;margin: 0;}
+.blog-media-section .row .col-lg-6{padding-bottom: 20px;}
+
+/********************FAQ's-Section************************/
+.faq-section {padding-top: 15px;}
+.faq-heading h3 {font-size: 45px;}
+.faq-heading p {font-size: 17px;padding-bottom: 10px;}
+.faq-content {display:block;width: 100%;}
+.faq-fullwidth {padding: 0;}
+
+/*****************what-customes-say*******************/
+.customer-section {padding-top: 30px; text-align: center;}
+.customer-says-heading h3 {color: #313131;font-size: 32px;padding-bottom: 5px;}
+.customer-says-heading p {font-size: 15px;line-height: 23px;}
+.customer-image img {width: 100%;}
+.customer-content-details p {font-size: 18px;padding-bottom: 25px;}
+.customer-content img {display: inline;}
+.customer-content h6 {padding: 20px 30px;margin-bottom: 0;}
+
+
+/************************Footer***********************/
+.footer-wrap {margin-top: 35px;}
+.newsletter-heading h2 {font-size: 30px;padding-top: 35px;}
+.subscribe-section {margin-top: 25px;}
+.subscribe-section .form-floating {display: block;text-align: center;}
+.form-floating .form-control {width: 100%;}
+.subscribe-section .btn-secondary.btn-lg {margin-top: 20px;width: 150px;height: 50px;background: #FFFFFF;border-radius: 5px;color: #313131;}
+.sub-footer-section {padding-top:47px;display:block;text-align: center;}
+.footer-logo p {font-size: 16px;font-style: normal;margin-top: 17px;}    
+.footer-link li a {font-size: 15px;}
+
+
+
+
+/***********************Login**********************/
+.login-section .row {justify-content: center;flex-direction: column-reverse;}
+.remotely-work img {width: 100%;}
+.login-heading h1 {text-align: center;}
+.login-button .login-btn {width: 149px;height: 40px;margin-top: 30px;text-align: center;}
+.login-button a.forgot-pwd {margin-left: 15px;}
+.login-section input.form-control {text-align: center;height: 70px;font-size: 15px;}
+.social-icons ul {text-align: center;}
+
+}/*320 to 420 media end*/
+
+
+
+
+
+@-webkit-keyframes inM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes inM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes outM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes outM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes inT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes inT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes outT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes inBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes inBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
